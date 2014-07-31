@@ -1,0 +1,9 @@
+﻿{
+	"manifest_version": 2,
+	"name": "BaiduTiebaHelper",
+	"version": "0.0.1",
+	"content_scripts":[{
+		"matches":["http://tieba.baidu.com/*"],
+		"js":["jquery-2.0.0.min.js","remove_ad.js"]
+	}]
+}
